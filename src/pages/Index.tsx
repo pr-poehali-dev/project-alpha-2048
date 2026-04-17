@@ -4,7 +4,7 @@ export default function Index() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
-          <a href="/" className="text-xl font-bold tracking-tighter">
+          <a href="/" className="text-xl font-bold tracking-tighter" style={{color: '#C9A84C'}}>
             МОСКОВСКИЕ БЕЙДЖИ
           </a>
           <div className="flex space-x-8">
