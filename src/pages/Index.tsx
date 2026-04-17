@@ -4,8 +4,8 @@ export default function Index() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
-          <a href="/" className="text-xl font-bold tracking-tighter" style={{color: '#C9A84C'}}>
-            МОСКОВСКИЕ БЕЙДЖИ
+          <a href="/">
+            <img src="https://cdn.poehali.dev/projects/6f3db32b-3707-46c6-a3e5-d0a3f1760aaa/bucket/42f87324-b7f5-44a6-bfc0-a10c72103089.png" alt="Московские Бейджи" className="h-12 w-auto" />
           </a>
           <div className="flex space-x-8">
             <a href="#work" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
