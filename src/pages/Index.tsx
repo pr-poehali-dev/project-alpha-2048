@@ -4,8 +4,11 @@ export default function Index() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex items-center">
-          <a href="/">
-            <img src="https://cdn.poehali.dev/projects/6f3db32b-3707-46c6-a3e5-d0a3f1760aaa/bucket/fc6fb971-e222-4887-862a-158e393df865.png" alt="Московские Бейджи" className="h-12 w-auto mt-4" />
+          <a href="/" className="relative inline-flex items-center justify-center mt-4">
+            <svg viewBox="0 0 110 130" className="absolute w-20 h-20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="55" cy="65" rx="48" ry="58" stroke="#C2185B" strokeWidth="3" strokeDasharray="6 5" strokeLinecap="round"/>
+            </svg>
+            <img src="https://cdn.poehali.dev/projects/6f3db32b-3707-46c6-a3e5-d0a3f1760aaa/bucket/fc6fb971-e222-4887-862a-158e393df865.png" alt="Московские Бейджи" className="h-12 w-auto relative z-10" />
           </a>
           <span className="flex-1 text-center" style={{fontFamily: "'Playfair Display', serif", color: '#C9A84C', fontSize: '2rem', fontWeight: 700, letterSpacing: '0.12em', whiteSpace: 'nowrap'}}>
             МОСКОВСКИЕ БЕЙДЖИ
