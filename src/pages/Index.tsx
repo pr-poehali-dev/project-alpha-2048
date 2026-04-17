@@ -3,13 +3,13 @@ export default function Index() {
     <main className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
-        <div className="container mx-auto px-4 md:px-8 py-4 flex justify-center items-center">
-          <a href="/" className="flex items-center gap-4">
+        <div className="container mx-auto px-4 md:px-8 py-4 flex items-center relative">
+          <a href="/">
             <img src="https://cdn.poehali.dev/projects/6f3db32b-3707-46c6-a3e5-d0a3f1760aaa/bucket/fc6fb971-e222-4887-862a-158e393df865.png" alt="Московские Бейджи" className="h-16 w-auto" />
-            <span style={{fontFamily: "'Playfair Display', serif", color: '#C9A84C', fontSize: '1.6rem', fontWeight: 700, letterSpacing: '0.12em', whiteSpace: 'nowrap'}}>
-              МОСКОВСКИЕ БЕЙДЖИ
-            </span>
           </a>
+          <span className="absolute left-1/2 -translate-x-1/2" style={{fontFamily: "'Playfair Display', serif", color: '#C9A84C', fontSize: '1.6rem', fontWeight: 700, letterSpacing: '0.12em', whiteSpace: 'nowrap'}}>
+            МОСКОВСКИЕ БЕЙДЖИ
+          </span>
 
         </div>
       </nav>
