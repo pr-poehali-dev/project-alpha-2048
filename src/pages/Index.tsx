@@ -15,6 +15,11 @@ export default function Index() {
           </span>
 
         </div>
+        <div className="w-full text-center py-1" style={{borderTop: '1px solid #e5e5e5'}}>
+          <span style={{fontFamily: "'Playfair Display', serif", color: '#C2185B', fontSize: '0.85rem', letterSpacing: '0.25em'}}>
+            Сделано правильно для вас
+          </span>
+        </div>
       </nav>
 
       {/* Hero Section */}
