@@ -7,7 +7,7 @@ export default function Index() {
           <a href="/">
             <img src="https://cdn.poehali.dev/projects/6f3db32b-3707-46c6-a3e5-d0a3f1760aaa/bucket/fc6fb971-e222-4887-862a-158e393df865.png" alt="Московские Бейджи" className="h-16 w-auto" />
           </a>
-          <span className="absolute left-1/2 -translate-x-1/2" style={{fontFamily: "'Playfair Display', serif", color: '#C9A84C', fontSize: '1.6rem', fontWeight: 700, letterSpacing: '0.12em', whiteSpace: 'nowrap'}}>
+          <span className="absolute left-1/2 -translate-x-1/2" style={{fontFamily: "'Playfair Display', serif", color: '#C9A84C', fontSize: '3.2rem', fontWeight: 700, letterSpacing: '0.12em', whiteSpace: 'nowrap'}}>
             МОСКОВСКИЕ БЕЙДЖИ
           </span>
 
